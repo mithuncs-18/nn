@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BuyTicket Page</title>
+<style>
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+div.x
+{
+    background-color: #58B822;
+    color: rgb(255, 250, 250);
+    margin: 0px;
+    padding: 2px;
+    text-indent: 180px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    text-align: right;
+    height: 40px;
+    width: 1520px;
+
+}
+
+div.xx{
+    float:right;
+    padding: 8px 6px;
+    
+}
+
+.xx a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.xx a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.xx a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+div.y
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    
+}
+
+div.yy{
+    float:left;
+    padding: 8px 6px;
+    
+}
+
+a:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.z{
+    
+   
+    position: absolute;
+    top: 130px;
+    right: 660px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    border-radius: 5px;
+    background-color: #b6aeae;
+    padding: 15px;
+    
+
+}
+
+input[type=text], select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #D6D2D2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #D6D2D2;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #58B822;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.hh{
+  position: absolute;
+  top: 520px;
+  width: 1300px;
+  right: 120px;
+  text-align: center;
+  color: #58B822;
+  font-size: 20px;
+
+}
+div.b{
+  padding: 8px 6px;
+}
+
+.p1{
+  float:left;
+  position: absolute;
+  right: 1050px;
+  padding: 8px 6px;
+
+
+}
+.p2{
+  float:left;
+  position: absolute;
+  right: 650px;
+  padding: 8px 6px;
+}
+
+.p3{
+  float:left;
+  position: absolute;
+  right: 200px;
+  padding: 8px 6px;
+}
+.p4{
+  padding: 8px 6px;
+}
+div.rr{
+  text-align: left;
+  position: absolute;
+  top: 720px;
+  left: 105px;
+}
+div.rr1{
+  text-align: left;
+  position: absolute;
+  top: 720px;
+  left: 650px;
+}
+
+div.rr2{
+  text-align: left;
+  position: absolute;
+  top: 720px;
+  right: 105px;
+}
+
+div.hhe{
+  position: absolute;
+  top: 865px;
+  width: 1535px;
+  background-color: #58B822;
+  height: 3px;
+}
+
+div.Footer
+{
+    background-color: #BFC3C3;
+    color: rgb(0, 0, 0);
+    height: 160px;
+    width: 1365px;
+    position: absolute;
+    top: 910px; 
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.h3{
+  position: absolute;
+  top: 915px; 
+
+}
+div.mm
+{
+    text-align: center;
+    position: absolute;
+    top: 940px; 
+    right: 700px; 
+    
+   
+}
+
+div.sm
+{
+    text-align: center;
+    position: absolute;
+    top: 940px; 
+    right: 200px; 
+    
+
+}
+
+
+
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="x">
+  <div class="xx">
+    <pre><b>   Deals And Offers    <a href="ticketcancel.html">Ticket Cancel</a>      <a href="busreserve.html">Bus Reservation</a>     <a href="contact.html">Contact us</a>  &#128222; 16999     </b></pre>
+  </div>
+
+</div>
+<div class="y">
+  <div class="yy">
+    <pre><b>              <a href="busready.html">Busready</a>     <a href="buyticket.html"> BuyTicket </a> </b></pre>
+  </div>
+</div>
+<div class="z">
+<form action="">
+    <label for="from">From:</label><br>
+    <input type="text" id="from" name="from"><br>
+    <label for="to">To:</label><br>
+    <input type="text" id="to" name="to"><br>
+    <label for="dateof">Date Of Journey:</label><br>
+    <input type="text" id="dateof" name="dateof"><br>
+    <label for="returnof">Return Of Journey:</label><br>
+    <input type="text" id="returnof" name="returnof"><br>
+    <input type="submit" value="Search Buses">
+</form> 
+</div>
+<div class="hh">
+  <br>
+  <br>
+  <hr>
+<div class="b">
+<p>Buy bus tickets 3 easy steps</p>
+</div>
+<hr>
+<p class="p1">
+  <b>Search</b>
+</p>
+<p class="p2">
+  <b>Select</b>
+</p>
+<p class="p3">
+  <b>Pay</b>
+</p>
+<br>
+  <br>
+  <hr>
+  <p class="p4">
+  <b> Available Bus Routes </b>
+  </p>
+  <hr>
+</div>
+<div class="rr">
+<p>Dhaka to Dinajpur<br>
+   Dhaka to Panchagor<br>
+   Dhaka to Nilphamari<br>
+   Dhaka to Cox's Bazar<br>
+   Dhaka to Feni<br>
+   Dhaka to Darshana<br>
+   Dhaka to Sathkhira<br>
+</p>
+</div>
+<div class="rr1">
+  <p>Dhaka to Bogra<br>
+     Dhaka to Naogaon<br>
+     Dhaka to Gopalganj<br>
+     Dhaka to Hili<br>
+     Dhaka to Chittagong<br>
+     Dhaka to Khulna<br>
+     Dhaka to Sylhet<br>
+</p>
+</div>
+
+<div class="rr2">
+  <p>Dhaka to Barisal<br>
+     Dhaka to Bandarban<br>
+     Dhaka to Teknaf<br>
+     Dhaka to Khagrachari<br>
+     Dhaka to Moulvibazar<br>
+     Dhaka to Sreemangal<br>
+     Dhaka to Rangamati<br>
+</p>
+</div>
+
+<div class="hhe">
+<br>
+<hr>
+</div>
+<div class="Footer">
+<br>
+<h3>Busready</h3>
+  <p>Busready, owned and operated <br>
+   by Busready Ltd, is Bangladesh’s<br>
+   largest online ticket destination, <br>
+   which is committed to making your <br>
+   life convenient, easier and smarter.</p>
+</div>
+<div class="mm">
+<p><b>About us<br>
+Privacy and Policy<br>
+Term of use</b>
+</p>
+</div>
+<div class="sm">
+<p><b>Social Media<br><br></b>
+<i class="fa fa-facebook-square" style="font-size:30px;color:blue"></i>
+<i class="fa fa-instagram" style="font-size:30px;color:rgb(255, 0, 0)"></i>
+<i class="fa fa-linkedin-square" style="font-size:30px;color:rgb(3, 108, 150)"></i>
+</p>
+</div>
+
+
+
+</body>
+</html>
